@@ -1,7 +1,12 @@
 .AnchorLink {
-    @apply flex gap-2 items-center;
+    @apply flex gap-2 items-center w-fit;
     h1, h2, h3, h4, h5, h6 {
         @apply m-0
+    }
+    &:hover {
+        .Button {
+            opacity: 1;
+        }
     }
 }
 
@@ -22,5 +27,6 @@
 }
 
 .Button {
-    @apply hover:text-black hover:bg-slate-300 p-2 rounded-full;
+    opacity: 0;
+    @apply hover:text-black hover:bg-slate-300 p-2 rounded-full transition-opacity hover:cursor-pointer;
 }
