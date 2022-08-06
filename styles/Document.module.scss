@@ -19,7 +19,7 @@
 }
 
 .Content {
-    @apply prose prose-slate lg:prose-lg dark:prose-invert 
+    @apply max-w-full prose prose-slate lg:prose-lg dark:prose-invert 
 }
 
 .ListMain {
