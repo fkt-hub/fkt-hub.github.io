@@ -1,0 +1,11 @@
+.MainContent {
+    @apply flex h-full justify-center items-center min-h-full
+}
+
+.MainHeader {
+    @apply text-4xl text-slate-700 dark:text-white
+}
+
+.InnerContent {
+    @apply w-1/2 text-slate-600 dark:text-white
+}

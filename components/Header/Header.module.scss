@@ -1,0 +1,15 @@
+.Main {
+    @apply border-b-2 border-gray-200 dark:border-slate-700
+}
+
+.Navbar {
+    @apply flex bg-white dark:bg-slate-900 px-8 py-4 justify-between backdrop-blur-md
+}
+
+.Header {
+    @apply text-black dark:text-white text-xl
+}
+
+.Navigation {
+    @apply flex gap-2
+}

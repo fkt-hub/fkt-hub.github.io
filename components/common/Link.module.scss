@@ -1,0 +1,7 @@
+.Link {
+    @apply text-gray-600 hover:text-gray-900 dark:text-fuchsia-200 dark:hover:text-fuchsia-400 transition-colors
+}
+
+.Active {
+    @apply text-blue-600
+}

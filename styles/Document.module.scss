@@ -1,0 +1,31 @@
+.Main {
+    @apply w-full 
+}
+
+.HeaderImage {
+    @apply flex-grow relative w-full bg-center;
+    height: 250px;
+    img {
+        @apply object-cover object-center absolute top-0 bottom-0 left-0 right-0 w-full h-full max-h-full max-w-full;
+    }
+}
+
+.Header {
+    @apply dark:text-white text-slate-600 text-5xl text-center absolute z-10 m-0 top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 drop-shadow-lg
+}
+
+.ContentMain {
+    @apply px-4 md:w-1/2 md:px-0 h-full mx-auto
+}
+
+.Content {
+    @apply prose prose-slate lg:prose-lg dark:prose-invert 
+}
+
+.ListMain {
+    @apply flex flex-wrap justify-center items-center gap-4 dark:text-white text-slate-600
+}
+
+.NoDocumentFound {
+    @apply dark:text-white text-slate-600 text-2xl
+}

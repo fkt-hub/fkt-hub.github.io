@@ -1,0 +1,7 @@
+.Footer {
+    @apply border-t-2 border-gray-200 dark:border-slate-700 dark:text-white
+}
+
+.Inner {
+    @apply flex bg-white dark:bg-slate-900 px-8 py-4 justify-between 
+}

@@ -1,0 +1,5 @@
+.MainContent {
+    height: calc(100vh - 152px);
+    overflow: auto;
+    @apply justify-center flex mb-8
+}
