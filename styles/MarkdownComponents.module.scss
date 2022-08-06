@@ -1,0 +1,26 @@
+.AnchorLink {
+    @apply flex gap-2 items-center;
+    h1, h2, h3, h4, h5, h6 {
+        @apply m-0
+    }
+}
+
+.Heading1 {
+    @apply mb-8;
+}
+
+.Heading2 {
+    @apply mb-6 mt-2;
+}
+
+.Heading3 {
+    @apply mb-4 mt-2;
+}
+
+.Heading4, .Heading5, .Heading6 {
+    @apply mb-2 mt-1;
+}
+
+.Button {
+    @apply hover:text-black hover:bg-slate-300 p-2 rounded-full;
+}

@@ -7,7 +7,7 @@
 }
 
 .Card {
-    @apply rounded-md overflow-hidden bg-slate-900 w-80 shadow hover:shadow-lg hover:cursor-pointer;
+    @apply rounded-md overflow-hidden bg-slate-100 dark:bg-slate-900 w-80 shadow hover:shadow-lg hover:cursor-pointer;
     .CardContent {
         @apply p-4;
         span {

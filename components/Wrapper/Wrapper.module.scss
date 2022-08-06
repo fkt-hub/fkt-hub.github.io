@@ -1,5 +1,5 @@
 .MainContent {
     height: calc(100vh - 120px);
     overflow: auto;
-    @apply justify-center flex;
+    @apply justify-center flex scroll-smooth;
 }
